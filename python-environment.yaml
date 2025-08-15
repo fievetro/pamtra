@@ -1,0 +1,40 @@
+name: light
+channels:
+  - rttools
+  - conda-forge
+dependencies:
+  - python=3.10
+  - aiohttp
+  - cartopy
+  - cmocean
+  - dask
+  - flox
+  - fsspec
+  - h5netcdf
+  - healpix
+  - intake<2
+  - intake-xarray<2
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - netcdf4
+  - numcodecs
+  - numexpr
+  - numpy
+  - pandas
+  - pyyaml
+  - requests
+  - scipy
+  - seaborn
+  - shapely
+  - xarray
+  - zarr
+  - pip:
+      - aiohttp-retry
+      - cf-xarray
+      - easygems
+      - eurec4a
+      - gribscan
+      - ipfsspec
+      - orcestra
+      - swiftspec
